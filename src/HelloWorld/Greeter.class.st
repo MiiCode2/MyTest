@@ -4,7 +4,7 @@ Class {
 	#category : #HelloWorld
 }
 
-{ #category : #'no messages' }
+{ #category : #'as yet unclassified' }
 Greeter >> counter [
 	"comment stating purpose of message"
 
@@ -20,4 +20,12 @@ Greeter >> sayIt [
 	"comment stating purpose of message"
 
 	Transcript show: 'Hello Github World'
+]
+
+{ #category : #'no messages' }
+Greeter >> sayIt2 [
+	"comment stating purpose of message"
+
+	Transcript show: 'Message with cr'.
+	Transcript cr.
 ]
