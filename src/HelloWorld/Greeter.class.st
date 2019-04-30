@@ -19,5 +19,5 @@ Greeter >> counter [
 Greeter >> sayIt [
 	"comment stating purpose of message"
 
-	Transcript show: 'Hello World'
+	Transcript show: 'Hello Github World'
 ]
